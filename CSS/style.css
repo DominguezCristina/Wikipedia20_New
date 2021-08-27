@@ -108,3 +108,21 @@ h2 {
 	grid-column:span 1;
 	min-height:10px;
 	}
+
+	@font-face {
+    font-family: 'Aileron';
+    src: url('Aileron-Regular.woff2') format('woff2'),
+        url('Aileron-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('Aileron-Light.woff2') format('woff2'),
+        url('Aileron-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
