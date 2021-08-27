@@ -1,0 +1,110 @@
+
+body {
+	background:white;
+	color:black;
+	}
+
+h2 {
+	font-family: Aileron;
+	font-size: 300%;
+	font-weight: 500;
+  	top:0%;
+  	left:0%;
+  	margin:0 0 0 0;
+  	position: relative;
+  	line-height: 1;
+  	color:black;
+
+}	
+
+.voce {
+	color:white;
+	text-decoration: underline;
+}
+
+.voce:hover {
+	color:white;
+	text-decoration:none;
+}
+
+.voce_2 {
+	color:blue;
+	text-decoration: none;
+}
+
+.voce_2:hover {
+	color:blue;
+	text-decoration:underline;
+}
+
+
+.nav {
+	float:right;
+	font-family: Aileron;
+	font-size: 200%;
+	font-weight: 500;
+	color:white;
+	text-decoration: none;
+	padding:0.5%;
+
+	}
+
+.nav:hover {
+	text-decoration:underline;
+}
+
+.sticky {
+	position:fixed;
+	bottom:0%;
+	right:0%;
+	background:blue;
+	border:0.5px solid blue;
+	width:100%;
+	}
+
+.Bigtesto {
+	font-family: Aileron;
+	font-size: 468%;
+	font-weight: 500;
+	position:relative;
+  	top:0%;
+ 	margin:0;
+  	line-height: 1;
+  	color:blue;
+  
+
+}	
+
+.paragrafointro{
+	font-family: Aileron;
+	font-size: 300%;
+	font-weight: 500;
+	top:1%;
+  	margin:0;
+  	position: relative;
+  	line-height: 1.05;
+  	color:black;
+  	text-align:left;
+}
+
+
+.griglia {
+	max-width:auto;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap:25px;
+	grid-row-gap:10px;
+	margin-bottom:10px;
+	}
+
+.flex {
+	display:flex;
+	justify-content:space-between;
+	margin: 0px;
+}	
+}
+
+.span_1 {
+	grid-column:span 1;
+	min-height:10px;
+	}
