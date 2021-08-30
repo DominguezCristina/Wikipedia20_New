@@ -131,16 +131,31 @@
 		<span class="linea m">un <a class="voce_2" href="https://it.wikipedia.org/wiki/Buddha_che_salta_il_muro">Buddha che salta il muro</a></span>
 		<span class="linea m">di <a class="voce_2" href="https://it.wikipedia.org/wiki/Tofu_puzzolente">Tofu puzzolente</a> e</span>
 		<span class="linea m"><a class="voce_2" href="https://it.wikipedia.org/wiki/Gata_Carogna">Gata Carogna</a></span>
-
 		<span class="linea m">a <a class="voce_2" href="https://it.wikipedia.org/wiki/Maso_chiuso">Maso chiuso</a>!</span>
-		
-
-		
-
 		<br>
 		</span>
-		</p>
-		
+		</p>	
+	</div>
+
+	<div id="content5">
+		<p class="Bigtesto">
+		<span style="color:black">
+		<span class="linea m"><a class="voce_2" href="https://it.wikipedia.org/wiki/Tizio,_Caio_e_Sempronio">Tizio, Caio e Sempronio</span></a>
+		<span class="linea m">si ritrovarono in una</span>
+		<span class="linea m"><a class="voce_2" href="https://it.wikipedia.org/wiki/Zuffa_tra_pompeiani_e_nocerini">Zuffa tra pompeiani <span class="linea m">e nocerini</span></a></span>
+		<span class="linea m">perché qualche</span>
+		<span class="linea m"><a class="voce_2" href="https://it.wikipedia.org/wiki/Buonadonna">Buonadonna</a>, aveva sfidato</span>
+		<span class="linea m"><a class="voce_2" href="https://it.wikipedia.org/wiki/Guglielmo_Braccio_di_Ferro">Guglielmo Braccio di Ferro</a></span>
+		<span class="linea m">ad una <a class="voce_2" href="https://it.wikipedia.org/wiki/Gara_di_cibo">Gara di cibo
+</a></span>	
+		<span class="linea m">di <a class="voce_2" href="https://it.wikipedia.org/wiki/Ostrichetrancidipescesalatocagnoligattuccipezzidicefaloinsalsapiccantesilfiooliomieletordimerlicolombaccicolombellegallettilodolearrostocutrettolepiccioniselvaticilepricottenelvinocroccanticantuccini">Ostriche­tranci­di­pesce­<span class="linea m">salato­cagnoli­gattucci­</span><span class="linea m">pezzi­di­cefalo­in­salsa­</span><span class="linea m">piccante­silfio­olio­miele­tordi­</span><span class="linea m">merli­colombacci­</span><span class="linea m">colombelle­galletti­</span><span class="linea m">lodole­arrosto­cutrettole­</span><span class="linea m">piccioni­selvatici­</span><span class="linea m">lepri­cotte­nel­vino­</span><span class="linea m">croccanti­cantuccini</span></a>
+		<span class="linea m">che perse per un</span>
+		<span class="linea m"><a class="voce_2" href="https://it.wikipedia.org/wiki/Cucchiaino_nello_spumante">Cucchiaino nello spumante</a>,</span>
+		<span class="linea m">creando così</span>
+		<span class="linea m"><a class="voce_2" href="https://it.wikipedia.org/wiki/Confusione_e_diffusione">Confusione e diffusione</a></span>
+		<span class="linea m">di<a class="voce_2" href="https://it.wikipedia.org/wiki/Balabiott"> Balabiott</a>.</span>
+		<br>
+		</p>	
 	</div>
 
 
@@ -168,10 +183,11 @@ function random_content_selection(){
 	document.getElementById("content2").style.display = "none";
 	document.getElementById("content3").style.display = "none";
 	document.getElementById("content4").style.display = "none";
+	document.getElementById("content5").style.display = "none";
 
 
 
-	randomNumber = Math.floor(Math.random()*4+1);  // Our Variable
+	randomNumber = Math.floor(Math.random()*5+1);  // Our Variable
 
 	window.onload = function() {  // Our Function - calling the Variable with "if"
 		if (randomNumber == 1) {
@@ -184,8 +200,12 @@ function random_content_selection(){
 		else if (randomNumber == 3) {
 			document.getElementById("content3").style.display = "inline";
 		}
-		else {
+
+		else if (randomNumber == 4) {
 			document.getElementById("content4").style.display = "inline";
+		}
+		else {
+			document.getElementById("content5").style.display = "inline";
 		}
 	}
 }
