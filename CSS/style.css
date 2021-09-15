@@ -39,7 +39,7 @@ h2 {
 
 
 .nav {
-	float:right;
+	float:left;
 	font-family: Aileron;
 	font-size: 200%;
 	font-weight: 500;
@@ -50,7 +50,7 @@ h2 {
 	}
 
 .nav2 {
-	float:left;
+	float:right;
 	font-family: Aileron;
 	font-size: 200%;
 	font-weight: 500;
