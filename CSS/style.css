@@ -49,6 +49,17 @@ h2 {
 
 	}
 
+.nav2 {
+	float:left;
+	font-family: Aileron;
+	font-size: 200%;
+	font-weight: 500;
+	color:white;
+	text-decoration: none;
+	padding:0.5%;
+
+	}
+
 .nav:hover {
 	text-decoration:underline;
 }
